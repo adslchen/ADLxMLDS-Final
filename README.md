@@ -6,6 +6,7 @@ r06943020.
 Requirements
 ------------
 - Python >= 3.5
+- Pytorch == 0.2.0
 
 Install requirements for music separation
 
@@ -27,7 +28,7 @@ Training
 
 ```
 python train.py --local-data=[/path/to/mir-1k/train_data]
---model_dir=[/path/to/your/model/directory]
+--model_dir=[/path/to/your/model/saving/directory]
 ```
 
 
@@ -35,7 +36,7 @@ Testing
 ------------
 ```
 python test.py --test_dir=[/path/to/mir-1k/test_data]
---output=[/path/to/output/dir] --model_path=models/complex.pth
+--output=[/path/to/output/saving/dir] --model_path=models/complex.pth
 ```
 
 

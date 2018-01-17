@@ -1,4 +1,5 @@
-url = "https://www.dropbox.com/sh/el7olcqjjnljeb5/AACWu6X24lohLrkjKL5ki8Gea?dl=1"  # dl=1 is important
+# dl=1 is important
+url="https://www.dropbox.com/sh/el7olcqjjnljeb5/AACWu6X24lohLrkjKL5ki8Gea?dl=1"
 import urllib.request
 u = urllib.request.urlopen(url)
 print("Downloading")
